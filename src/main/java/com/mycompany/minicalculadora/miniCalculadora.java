@@ -19,9 +19,12 @@ public class miniCalculadora {
         return Math.sqrt(in);
     }
     
-    public static int sumar(int a, int b){
-     int result;
-     result = a+b;
-     return result;
+    /**
+     * @param a double
+     * @param b double
+     * @return double addition of a and b
+     */
+    public static double add(double a, double b) {
+        return a + b;
     }
 }
